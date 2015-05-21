@@ -17,12 +17,6 @@ var RetiredForagerBee = function() {
   this.job = 'gamble';
   this.canFly = false;
   this.color = 'grey';
-  // this.forage = function() {
-  //   return "I am too old, let me play cards instead"
-  // };
-  // this.gamble = function(treasure) {
-  //   this.treasureChest++;
-  // }
 };
 
 RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
